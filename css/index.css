@@ -1,0 +1,13 @@
+body {
+    background-color: black;
+}
+
+img {
+    scale: .3;
+    cursor: pointer;
+    transition: all .4s ease;
+}
+
+img:hover {
+    scale: .5;
+}
