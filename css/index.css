@@ -187,6 +187,7 @@ span {
     border-radius: 50%;
     box-shadow: 0 0 25px solid #b74b4b;
     transition: .2s linear;
+    box-shadow: 0 1px 12px #b74b4b;
 }
 
 .social-icons {
