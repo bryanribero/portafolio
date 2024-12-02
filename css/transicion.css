@@ -1,0 +1,10 @@
+.hidden {
+    opacity: 0;
+    transform: translateY(30px); /* Baja un poco para dar un efecto */
+    transition: opacity 0.7s, transform 0.7s;
+  }
+  
+  .visible {
+    opacity: 1;
+    transform: translateY(0); /* Vuelve a su posición original */
+  }
