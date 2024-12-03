@@ -1,0 +1,36 @@
+.skills .titulo {
+    font-size: 4rem;
+}
+
+.skills-details {
+    display: flex;
+    flex-direction: column; /* Hace que los contenedores de boxes se apilen uno debajo del otro */
+    align-items: center; /* Centra los contenedores de boxes horizontalmente */
+    gap: 20px; /* Espacio entre los conjuntos de boxes */
+    justify-content: center; /* Centra el contenido verticalmente */
+    height: 100%; /* Asegura que el contenido ocupe el 100% de la altura disponible */
+}
+
+.boxes {
+    display: flex;
+    flex-direction: row; /* Hace que los elementos dentro de cada conjunto de boxes estén uno al lado del otro */
+    justify-content: center; /* Centra los elementos dentro de cada conjunto de boxes */
+    gap: 15rem; /* Espacio entre los boxes dentro de cada conjunto */
+    margin-top: 10rem;
+}
+
+.box {
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+    max-width: 250px; /* Tamaño máximo de cada box */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Asegura que las imágenes se centren dentro de cada box */
+    justify-content: center; /* Centra el contenido verticalmente dentro del box */
+}
+
+.box img {
+    max-width: 100%;
+    height: auto;
+}

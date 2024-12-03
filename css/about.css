@@ -1,6 +1,11 @@
+.about {
+    margin-top: 10rem;
+}
+
 .about h1 {
     font-size: 4rem;
 }
+
 .about p {
     font-size: 1.6rem;
 }

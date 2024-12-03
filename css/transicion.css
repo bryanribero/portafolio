@@ -1,10 +1,24 @@
+/* Estilo inicial para elementos genéricos */
 .hidden {
-    opacity: 0;
-    transform: translateY(30px); /* Baja un poco para dar un efecto */
-    transition: opacity 0.7s, transform 0.7s;
-  }
-  
-  .visible {
-    opacity: 1;
-    transform: translateY(0); /* Vuelve a su posición original */
-  }
+  opacity: 0;
+  transform: translateY(30px); /* Baja un poco para dar un efecto */
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+
+/* Estilo inicial para logos */
+.hiddenLogo {
+  opacity: 0;
+  transform: translateX(-50px); /* Se desplazan desde la derecha */
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+
+/* Estilo visible para cualquier elemento genérico */
+.visible {
+  opacity: 1;
+  transform: translateY(0); /* Regresa a su posición original */
+}
+
+/* Estilo visible para logos */
+.hiddenLogo.visible {
+  transform: translateX(0); /* Regresa a su posición original */
+}
